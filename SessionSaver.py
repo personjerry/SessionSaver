@@ -47,7 +47,6 @@ class LoadSessionCommand(sublime_plugin.WindowCommand):
 	def on_done(self, session):
 		if session != -1:
 			session = pjoin(sessions_dir, os.listdir(sessions_dir)[session])
-			self.window.run_command("close_all")
 			with open(session, 'r') as s:
 				for l in s.readlines():
 					self.window.open_file(l.rstrip())
