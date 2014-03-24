@@ -1,4 +1,4 @@
-# Session Saver plugin for SUBLIME 2 or 3
+# Session Saver plugin for SUBLIME 2/3
 
 
 ## Author: Jerry Liu
